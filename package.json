@@ -1,0 +1,34 @@
+{
+  "name": "AdkyConnect",
+  "version": "1.0.1",
+  "description": "AdkyConnect pour se co mec",
+  "auto-updater":{
+    "repo":"/github-user/github-repo",
+    "branch":"master"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^18.2.0",
+    "electron-packager": "^15.5.1"
+  },
+  "dependencies": {
+    "custom-electron-titlebar": "^4.1.0",
+    "electron-updater": "^5.0.1",
+    "mysql": "^2.18.1",
+    "node-notifier": "^10.0.1",
+    "update-electron-app": "^2.0.1"
+  }
+}
